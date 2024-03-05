@@ -1,0 +1,10 @@
+{
+  "allowedMatches": [
+    "entrypoints",
+    "wxt.config.js"
+  ],
+  "gitignore": [
+    "/.output",
+    ".wxt"
+  ]
+}

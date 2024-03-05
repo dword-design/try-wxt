@@ -1,4 +1,8 @@
-node_modules
 .DS_Store
+.wxt
+/.env.json
+/.nyc_output
 /.output
-/.wxt
+/.test.env.json
+/coverage
+/node_modules

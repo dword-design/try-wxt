@@ -1,12 +1,35 @@
 {
   "name": "try-wxt",
   "version": "1.0.1",
-  "main": "index.js",
+  "private": true,
+  "repository": "dword-design/try-wxt",
+  "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "checkUnknownFiles": "base checkUnknownFiles",
+    "commit": "base commit",
+    "depcheck": "base depcheck",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "test": "base test"
+  },
   "dependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "vue": "^3.4.20",
     "wxt": "^0.17.3"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^11.0.9"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
