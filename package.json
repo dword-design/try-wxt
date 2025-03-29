@@ -21,7 +21,7 @@
   "dependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "vue": "^3.4.20",
-    "wxt": "^0.17.3"
+    "wxt": "^0.20.0"
   },
   "devDependencies": {
     "@dword-design/base": "^11.0.9"
